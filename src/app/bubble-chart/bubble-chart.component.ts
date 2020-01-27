@@ -35,6 +35,10 @@ export class BubbleChartComponent implements OnInit {
         { x: 25, y: 15, r: 25 },
         { x: 36, y: 12, r: 33 },
         { x: 10, y: 18, r: 18 },
+        { x: 20, y: 18, r: 18 },
+        { x: 10, y: 18, r: 18 },
+        { x: 40, y: 18, r: 18 },
+
       ],
       label: 'Investment Equities',
     },
