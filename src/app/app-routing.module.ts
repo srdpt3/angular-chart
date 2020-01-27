@@ -1,3 +1,5 @@
+import { LinechartComponent } from './linechart/linechart.component';
+import { BubbleChartComponent } from './bubble-chart/bubble-chart.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { MyBarChartComponent } from './my-bar-chart/my-bar-chart.component';
@@ -10,6 +12,9 @@ const routes: Routes = [
   {path: 'doughnut-chart', component: MyDoughnutChartComponent},
   {path: 'radar-chart', component: MyRadarChartComponent},
   {path: 'pie-chart', component: MyPieChartComponent},
+  {path: 'bubble-chart', component: BubbleChartComponent},
+  {path: 'line-chart', component: LinechartComponent},
+
   {path: '**', component: MyBarChartComponent}
 ];
 
